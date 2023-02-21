@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Travel Reservation Form</h1>
+    <h3>*denotes mendotory</h3>
+    <form>
+        <br>
+    <div>
+        <label for="fullname">Fullname*</label>
+        <input type="text" name="fullname" placeholder="Fullname" required>
+    </div>
+    <br>
+    <div>
+        <label for="lastname">Email Address*</label>
+        <input type="email" name="email" placeholder="Email_Address" required>
+    </div>
+    <br>
+    <div>
+        <label for="TourPackage">Select Tour Package*</label>
+        <select id="TourPackage" name="TourPackage">
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        </select >
+    </div>
+    <br>
+    <div>
+        <label for="Number of Person">Number of Person:*</label>
+        <input type="number of person" name="pperson" placeholder="UNKNOW_TYPE" min="1" max="10" >
+    </div>
+    <br>
+    <div>
+        <label for="date">Arrival Date</label>
+        <input type="date" name="Arrival date" >
+    </div>
+    <br>
+    <div>
+        <label for="PhonNumber">what would you want to avail?*</label required>
+        <input id="radio" type="checkbox" name="gender" >Boarding
+        <input id="radio" type="checkbox" name="gender" >Fooding
+        <input id="radio" type="checkbox" name="gender" >Sign seeing
+    </div>
+    <br>
+    <div>
+        <label for="coupon">Discout Coupon code</label>
+        <input type="text" name="fullname" placeholder="UNKNOW_TYPE" >
+    </div>
+    <br>
+    <div>
+        <label for="PhonNumber">Terms and conditins*</label>
+        <input type="radio" name="Terms" checked >I agree
+        <input type="radio" name="Terms" >I disagree
+    </div>
+    <br>
+         <button type="button">Complete Reservation</button>
+    </form>
+</body>
+</html>
